@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Material Kit by Creative Tim</title>
+	<title>FlatMate</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -16,11 +16,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <link href="{{ URL::to('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ URL::to('assets/css/material-kit.css') }}" rel="stylesheet"/>
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
+	<link href="{{ URL::to('assets/css/demo.css') }}" rel="stylesheet" />
 
 </head>
 
@@ -59,18 +59,18 @@
 
 </body>
 	<!--   Core JS Files   -->
-	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/material.min.js"></script>
+	<script src=" {{ URL::to('assets/js/jquery.min.js') }}" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/bootstrap.min.js') }}" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/material.min.js') }}"></script>
 
 	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/nouislider.min.js') }}" type="text/javascript"></script>
 
 	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
-	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/bootstrap-datepicker.js') }}" type="text/javascript"></script>
 
 	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
-	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/material-kit.js') }}" type="text/javascript"></script>
 
 	<script type="text/javascript">
 
