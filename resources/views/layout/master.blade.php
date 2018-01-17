@@ -30,7 +30,14 @@
 <!-- End Navbar -->
 
 <div class="wrapper">
+
+@include('layout.header')
+
+<div class="main main-raised">
+
 @include('layout.footer')
+
+</div>
 </div>
 
 <!-- Sart Modal -->
