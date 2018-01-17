@@ -3,29 +3,29 @@
 	        <nav class="pull-left">
 	            <ul>
 					<li>
-						<a href="http://www.creative-tim.com">
-							Creative Tim
+						<a href="/blog">
+							Blog
 						</a>
 					</li>
 					<li>
-						<a href="http://presentation.creative-tim.com">
+						<a href="/about">
 						   About Us
 						</a>
 					</li>
 					<li>
-						<a href="http://blog.creative-tim.com">
-						   Blog
+						<a href="/terms">
+						   Terms of Service
 						</a>
 					</li>
 					<li>
-						<a href="http://www.creative-tim.com/license">
-							Licenses
+						<a href="/howto">
+							How It Works
 						</a>
 					</li>
 	            </ul>
 	        </nav>
 	        <div class="copyright pull-right">
-	            &copy; 2016, made with <i class="material-icons">favorite</i> by Creative Tim for a better web.
+	            &copy; 2018, made with <i class="material-icons">favorite</i> by DIPOLIMENE for Flat Mate.
 	        </div>
 	    </div>
 	</footer>
