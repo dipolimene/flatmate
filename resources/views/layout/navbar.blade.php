@@ -24,30 +24,46 @@
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="components-documentation.html" target="_blank">
+					<a href="/signup" target="_blank">
 						<i class="material-icons">face</i> Sign Up
 					</a>
 				</li>
 				<li>
-					<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
+					<a href="/signin" target="_blank">
 						<i class="material-icons">fingerprint</i> Sign In
 					</a>
 				</li>
+
 				<li>
-					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-twitter"></i>
+					<a rel="tooltip" title="Give us a call" data-placement="bottom" href="/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-phone"></i>
 					</a>
 				</li>
+
+				<li>
+					<a rel="tooltip" title="Send us a message" data-placement="bottom" href="/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-whatsapp"></i>
+					</a>
+				</li>
+
 				<li>
 					<a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-facebook-square"></i>
 					</a>
 				</li>
+
+				<li>
+					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+				
 				<li>
 					<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-instagram"></i>
 					</a>
 				</li>
+
 
 	    	</ul>
 	    </div>
