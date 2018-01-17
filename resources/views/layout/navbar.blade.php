@@ -10,7 +10,7 @@
 	    	<a href="/">
 	        	<div class="logo-container">
 	                <div class="logo">
-	                    <img src="assets/img/flatmate.jpg" alt="Creative Tim Logo" rel="tooltip" title="<b>Material Kit</b> was Designed & Coded with care by the staff from <b>Creative Tim</b>" data-placement="bottom" data-html="true">
+	                    <img src="assets/img/flatmate.jpg" alt="Creative Tim Logo" rel="tooltip" title="Connect with your <b>Flat Mate</b> here and enjoy splitting the <b>Bills</b>" data-placement="bottom" data-html="true">
 	                </div>
 	                <div class="brand">
 	                    <!-- Flat Mate -->

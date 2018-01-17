@@ -4,7 +4,7 @@
 				<div class="col-md-8 col-md-offset-2">
 					<div class="brand">
 						<h1>FLAT MATE</h1>
-						<h3>Find and connect with prospective Flat Mates here.</h3>
+						<h3>Connect with your Flat Mate here and enjoy splitting the bills.</h3>
 					</div>
 				</div>
 			</div>
