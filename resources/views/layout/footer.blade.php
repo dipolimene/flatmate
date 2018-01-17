@@ -25,7 +25,7 @@
 	            </ul>
 	        </nav>
 	        <div class="copyright pull-right">
-	            &copy; 2018, made with <i class="material-icons">favorite</i> by DIPOLIMENE for Flat Mate.
+	            &copy; 2018 made with <i class="material-icons">favorite</i> by DIPOLIMENE for Flat Mate.
 	        </div>
 	    </div>
 	</footer>
