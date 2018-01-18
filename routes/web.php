@@ -17,3 +17,4 @@
 
 Route::get('/', 'ViewController@index');
 Route::get('/signup', 'ViewController@signup');
+Route::post('/signup', 'ViewController@store');
