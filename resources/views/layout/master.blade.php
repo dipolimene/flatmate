@@ -25,9 +25,12 @@
 </head>
 
 <body class="index-page">
+
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 <!-- Navbar -->
 @include('layout.navbar')
 <!-- End Navbar -->
+</nav>
 
 <div class="wrapper">
 
@@ -38,6 +41,7 @@
 @include('layout.footer')
 
 </div>
+
 </div>
 
 <!-- Sart Modal -->

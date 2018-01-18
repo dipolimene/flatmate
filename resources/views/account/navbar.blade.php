@@ -1,14 +1,15 @@
 
 <div class="container">
-        <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-	        	<span class="sr-only">Toggle navigation</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
-	    	
-	    	<a href="/">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+
+        		<a href="/">
 	        	<div class="logo-container">
 	                <div class="logo">
 	                    <img src="assets/img/flatmate.jpg" alt="Creative Tim Logo" rel="tooltip" title="Connect with your <b>Flat Mate</b> here and enjoy splitting the <b>Bills</b>" data-placement="bottom" data-html="true">
@@ -17,13 +18,14 @@
 	                    <!-- Flat Mate -->
 	                </div>
 
-
 				</div>
 	      	</a>
-	    </div>
 
-	    <div class="collapse navbar-collapse" id="navigation-index">
-	    	<ul class="nav navbar-nav navbar-right">
+
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
 				<li>
 					<a href="/signup">
 						<i class="material-icons">face</i> Sign Up
@@ -67,6 +69,5 @@
 
 
 	    	</ul>
-	    </div>
-	</div>
-</nav>
+        	</div>
+</div>

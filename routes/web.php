@@ -15,4 +15,5 @@
     return view('welcome');
 });*/
 
-Route::get('/', 'ViewController@show');
+Route::get('/', 'ViewController@index');
+Route::get('/signup', 'ViewController@signup');
