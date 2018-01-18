@@ -12,10 +12,4 @@ class ViewController extends Controller
     	return view('view.index');
     }
 
-    public function store(){
-
-    	dd(request()->all());
-    	
-    }
-
 }

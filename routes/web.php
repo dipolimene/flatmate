@@ -16,5 +16,8 @@
 });*/
 
 Route::get('/', 'ViewController@index');
-Route::get('/signup', 'ViewController@signup');
-Route::post('/signup', 'ViewController@store');
+Route::get('/signup', 'PostController@signup');
+Route::post('/signup', 'PostController@store');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

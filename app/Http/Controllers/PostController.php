@@ -20,8 +20,14 @@ class PostController extends Controller
 
     }
 
+    public function store(){
 
-    public function store(ValidateSignUp $request){
+    	dd(request()->all());
+    	
+    }
+
+
+   /* public function store(ValidateSignUp $request){
 
     	//insert user data into db
     	$user = User::create([
@@ -36,5 +42,5 @@ class PostController extends Controller
     	//takes user to sign in page after succesfully sign up
     	return redirect('/sigin')->withMessage("Registration Successful");
     }
-
+*/
 }
