@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title') Register @endsection
 @section('content')
 
     <div class="row">
@@ -19,13 +19,13 @@
 
                                     <h4>Sign Up</h4>
                                     <div class="social-line">
-                                        <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                        <a href="#" class="btn btn-simple btn-just-icon">
                                             <i class="fa fa-facebook-square"></i>
                                         </a>
-                                        <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                        <a href="#" class="btn btn-simple btn-just-icon">
                                             <i class="fa fa-twitter"></i>
                                         </a>
-                                        <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                        <a href="#" class="btn btn-simple btn-just-icon">
                                             <i class="fa fa-instagram"></i>
                                         </a>
                                     </div>
