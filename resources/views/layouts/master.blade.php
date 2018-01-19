@@ -16,8 +16,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/material-kit.css" rel="stylesheet"/>
+    <link href=" {{ URL::to('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href=" {{ URL::to('assets/css/material-kit.css') }}" rel="stylesheet"/>
 
 </head>
 
@@ -29,7 +29,7 @@
 
     <div class="wrapper">
     
-		<div class="header header-filter" style="background-image: url('../assets/img/city.jpg'); background-size: cover; background-position: top center;">
+		<div class="header header-filter" style="background-image: url(' {{ URL::to('assets/img/city.jpg') }} '); background-size: cover; background-position: top center;">
 
 		<div class="container">
 
@@ -46,17 +46,17 @@
 
 </body>
 	<!--   Core JS Files   -->
-	<script src="../assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="../assets/js/material.min.js"></script>
+	<script src=" {{ URL::to('assets/js/jquery.min.js') }}" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/bootstrap.min.js') }}" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/material.min.js') }}"></script>
 
 	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-	<script src="../assets/js/nouislider.min.js" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/nouislider.min.js') }}" type="text/javascript"></script>
 
 	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
-	<script src="../assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/bootstrap-datepicker.js') }}" type="text/javascript"></script>
 
 	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
-	<script src="../assets/js/material-kit.js" type="text/javascript"></script>
+	<script src=" {{ URL::to('assets/js/material-kit.js') }}" type="text/javascript"></script>
 
 </html>

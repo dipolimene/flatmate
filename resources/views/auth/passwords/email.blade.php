@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title') Reset Password @endsection
+@section('title') Forgotten Password @endsection
 @section('content')
 
     <div class="row">
@@ -18,7 +18,7 @@
 
                                 <div class="header header-primary text-center">
 
-                                    <h4>Reset Password</h4>
+                                    <h4>Forgotten Password</h4>
 
                                 </div>
 
