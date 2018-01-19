@@ -24,6 +24,7 @@
 
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
+	    	
 				<li>
 					<a href="/register">
 						<i class="material-icons">face</i> Register

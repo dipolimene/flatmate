@@ -17,7 +17,7 @@
 
                                 <div class="header header-primary text-center">
 
-                                    <h4>Sign Up</h4>
+                                    <h4>Register</h4>
                                     <div class="social-line">
                                         <a href="#" class="btn btn-simple btn-just-icon">
                                             <i class="fa fa-facebook-square"></i>
