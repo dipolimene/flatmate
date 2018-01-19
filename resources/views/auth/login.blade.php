@@ -6,13 +6,13 @@
                     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
                         <div class="card card-signup">
 
-                            <form class="form" method="POST" action="">
+                            <form class="form" method="POST" action="{{ route('login') }}">
 
-        @if($msg = Session::get('message'))
-                    
-        {{ $msg }}
-            
-        @endif
+<!--         @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif -->
                             {{ csrf_field() }}
 
                                 <div class="header header-primary text-center">

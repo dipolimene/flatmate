@@ -38,6 +38,8 @@
 
 <div class="main main-raised">
 
+<!--  -->
+
 @include('layout.footer')
 
 </div>

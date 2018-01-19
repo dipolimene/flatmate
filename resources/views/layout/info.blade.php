@@ -1,11 +1,12 @@
 			<div class="container">
+			
 		    	<div class="section text-center section-landing">
-<!-- 	                <div class="row">
+	                <div class="row">
 	                    <div class="col-md-8 col-md-offset-2">
-	                        <h2 class="title">Let's talk product</h2>
-	                        <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+	                        <h2 class="title">Welcome to Flat Mate</h2>
+	                        <h5 class="description">Flat Mate helps you connect with people in the same shoes as your looking for a Flat Mate to split rent bills with, without having to break a bank or search the whole four corners of the city. We make it easy to connect with them with just a click, maybe a couple clicks actually!!</h5>
 	                    </div>
-	                </div> -->
+	                </div>
 
 					<div class="features">
 						<div class="row">
