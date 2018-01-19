@@ -66,12 +66,15 @@
                                     </div>
 
                                 </div>
+
                                 <div class="footer text-center">
-                                    <button type="submit" class="btn btn-simple btn-primary btn-lg">Log In</button>
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    <button type="submit" class="btn btn-link">Log In</button>
+                                    <br>
+                                    <a class="btn btn-simple btn-primary btn-lg" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                     </a>
                                 </div>
+
                             </form>
                         </div>
                     </div>

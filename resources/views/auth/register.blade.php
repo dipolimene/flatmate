@@ -86,7 +86,7 @@
 
                                 </div>
                                 <div class="footer text-center">
-                                    <button type="submit" class="btn btn-simple btn-primary btn-lg">Get Started</button>
+                                    <button type="submit" class="btn btn-link">Get Started</button>
                                 </div>
                             </form>
                         </div>
