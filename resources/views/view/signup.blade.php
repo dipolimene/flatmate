@@ -34,6 +34,11 @@
 											<i class="material-icons">face</i>
 										</span>
 										<input type="text" name="name" class="form-control" placeholder="Full Names" required>
+											@if ($errors->has('name'))
+                                    		<span class="help-block">
+                                        		<strong>{{ $errors->first('name') }}</strong>
+                                    		</span>
+                                			@endif
 									</div>
 
 									<div class="input-group">
@@ -41,13 +46,30 @@
 											<i class="material-icons">email</i>
 										</span>
 										<input type="text" name="email" class="form-control" placeholder="Email" required>
+											@if ($errors->has('email'))
+                                    		<span class="help-block">
+                                        		<strong>{{ $errors->first('email') }}</strong>
+                                    		</span>
+                                			@endif
 									</div>
 
 									<div class="input-group">
 										<span class="input-group-addon">
 											<i class="material-icons">lock_outline</i>
 										</span>
-										<input type="password" name="password_confirmation" placeholder="Password" class="form-control" required />
+										<input type="password" name="password" placeholder="Password" class="form-control" required />
+											@if ($errors->has('password'))
+                                    		<span class="help-block">
+                                        		<strong>{{ $errors->first('password') }}</strong>
+                                    		</span>
+                                			@endif
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">lock_outline</i>
+										</span>
+										<input type="password" name="password_confirmation" placeholder="Confirm Password" class="form-control" required />
 									</div>
 
 									<!-- <div class="checkbox">
@@ -66,4 +88,4 @@
 					</div>
 				</div>
 
-@stop
+@endsection

@@ -27,13 +27,13 @@
         	<div class="collapse navbar-collapse" id="navigation-example">
         		<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="/signup">
-						<i class="material-icons">face</i> Sign Up
+					<a href="/register">
+						<i class="material-icons">face</i> Register
 					</a>
 				</li>
 				<li>
-					<a href="/signin">
-						<i class="material-icons">fingerprint</i> Sign In
+					<a href="/login">
+						<i class="material-icons">fingerprint</i> Log In
 					</a>
 				</li>
 
