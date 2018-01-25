@@ -26,6 +26,12 @@
 
 <body class="index-page">
 
+<!-- Pure Chat Code Snippet Begins-->
+
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '50b1e4c2-c17f-45fb-b2a4-042141d0ab24', f: true }); done = true; } }; })();</script>
+
+<!-- Pure Chat Code Snippet Ends -->
+
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 <!-- Navbar -->
 @include('layout.navbar')
@@ -39,6 +45,7 @@
 <div class="main main-raised">
 
 <!--  -->
+@include('layout.info')
 
 @include('layout.footer')
 

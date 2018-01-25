@@ -12,7 +12,7 @@
         		<a href="/">
 	        	<div class="logo-container">
 	                <div class="logo">
-	                    <img src=" {{ URL::to('assets/img/flatmate.jpg') }}" alt="" rel="tooltip" title="Connect with your <b>Flat Mate</b> here and enjoy splitting the <b>Bills</b>" data-placement="bottom" data-html="true">
+	                    <img src=" {{ URL::to('assets/img/flat.png') }}" alt="" rel="tooltip" title="Connect with your <b>Flat Mate</b> here and enjoy splitting the <b>Bills</b>" data-placement="bottom" data-html="true">
 	                </div>
 	                <div class="brand">
 	                    <!-- Flat Mate -->
